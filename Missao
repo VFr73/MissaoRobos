@@ -1,0 +1,13 @@
+package missoes;
+import robos.Robo;
+
+public class Missao {
+    private int id;
+    private String descricao;
+    private TipoMissao tipo; //CLASSE ENUM TipoMissao**
+    private Robo roboResponsavel;
+    private AreaOperacao area; //Classe AreaOperacao
+    private int prioridade; //TALVEZ TROCAR PRA STRING
+    private StatusMissao status; // ENUM StatusMissao
+    
+}
